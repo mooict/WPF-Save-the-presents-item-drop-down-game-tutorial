@@ -1,4 +1,4 @@
-# WPF-Save-the-presents-item-drop-down-game-tutorial
+# WPF C# Tutorial – Create a save the presents item drop down game in visual studio
 
 
 Welcome to another tutorial from MOO ICT, in this tutorial I will show you how to make a fun save the presents, item drop down game in visual studio using C# and WPF programming. First in the tutorial we set up the XAML code with the Canvas and the labels and the player rectangle object. After that we add all of the elements for this using C# programming. 
