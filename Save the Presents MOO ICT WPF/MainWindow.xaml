@@ -1,0 +1,18 @@
+﻿<Window x:Class="Save_the_Presents_MOO_ICT_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Save_the_Presents_MOO_ICT_WPF"
+        mc:Ignorable="d"
+        Title="Save the presents WPF game" Height="700" Width="525" ResizeMode="CanMinimize">
+    <Canvas Name="MyCanvas" Background="Orange" Focusable="True" MouseMove="Canvas_MouseMove">
+
+        <Label Name="scoreText" FontSize="18" FontWeight="ExtraBlack">Score: 0</Label>
+        <Label Name="missedText" FontSize="18" FontWeight="ExtraBlack" Canvas.Left="391">Missed: 0</Label>
+
+        <Rectangle Name="player1" Width="80" Height="80" Canvas.Left="214" Canvas.Top="591" Fill="Red" />
+
+
+    </Canvas>
+</Window>
